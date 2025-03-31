@@ -134,7 +134,7 @@ PROFANE_WORDS = [
 
 # Initialize Blob Service Client
 connection_string = 
-container_name = 'linkcxo'
+container_name = ''
 blob_name = 'user_inputs.csv'
 
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
